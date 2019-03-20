@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Page Title</title>
+    <meta name="description" content="Page description">
+    <meta name="author" content="Page author">
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+  </head>
+  <body>
+    <h1>My First Heading</h1>
+    <p class="beautiful">My first paragraph.</p>
+    this is text.
+    <div>
+    <p>more text.</p>
+    </div>
+
+    <hr/>
+
+    <h3>List</h3>
+    <ul id="ourlist">
+      <li><a href="https://www.google.com">this a secret link</a></li>
+      <li><a href="https://www.github.com">another one</a></li>
+      <li><b>this is the third Item on the list.</b></li>
+    </ul>
+
+    <hr/>
+
+<!--
+this table doesnt show, its just a comment!
+-->
+
+  <div class="center">
+    <table class="nice">
+      <tr class="header">
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Max</td>
+        <td>Mustermann</td>
+        <td>30</td>
+      </tr>
+    </table>
+
+    <img src="http://www.apimages.com/Images/Ap_Creative_Stock_Header.jpg"
+    <img src="800px_COLOURBOX3684893.jpg"
+
+  </div>
+
+  </body>
+</html>

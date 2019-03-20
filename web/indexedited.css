@@ -1,0 +1,40 @@
+p {
+  color: #e51d0b;
+  background-color: #143fe8;
+}
+
+.nice,.nice *{
+  border: 1px solid black;
+  border-spacing:0;
+  border-collapse: collapse;
+}
+
+.beautiful {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.header {
+  background-color: gray;
+}
+
+#ourlist {
+  background-color: yellow;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.center{
+  padding: 5px;
+  margin: 10px;
+  width: 50%;
+  text-align: center;
+  border: solid;
+}
+
+.out{
+  border: dashed;
+}
