@@ -23,7 +23,7 @@ function outputData(person) {
   // Get the table HTML element
   var table = document.getElementById('persons-table');
   // Create an empty <tr> element and add it to the 2st position of the table:
-  var row = table.insertRow(1);
+  var row = table.insertRow(-1);
   // Add a class to actors
   if ((new RegExp(/schauspieler/gi)).test(person.profession)) {
     row.classList.add('actor');
