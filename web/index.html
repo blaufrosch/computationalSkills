@@ -2,15 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Page Title</title>
-    <meta name="description" content="Page description">
-    <meta name="author" content="Page author">
-    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <title>Exercise Webpage: Famous People Who Died in 2011</title>
+    <meta name="description" content="This website uses a list of names extracted from Wikipedia to list the famous people who died in 2011">
+    <meta name="author" content="ACDH Lecturers">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <script type="text/javascript" src="main.js"></script>
   </head>
   <body>
-    <h1>Famous People who died in 2011</h1>
-    <p>Here is a list of names extracted from Wikipedia.</p>
+    <h1>Famous People Who Died in 2011</h1>
+    <p>This website uses a list of names extracted from Wikipedia.</p>
+    <p>The data which is fetched can be seen here: <a href="https://raw.githubusercontent.com/acdh-oeaw/Teaching_CBS4DH/master/exercise/lecture4/data.json" target="_blank">https://raw.githubusercontent.com/acdh-oeaw/Teaching_CBS4DH/master/exercise/lecture4/data.json</a></p>
+    <p>See the JavaScript code which fetches and outputs the data here: <a href="https://github.com/acdh-oeaw/Teaching_CBS4DH/blob/master/exercise/lecture4/main.js" target="_blank">https://github.com/acdh-oeaw/Teaching_CBS4DH/blob/master/exercise/lecture4/main.js</a></p>
+    <p>Please use the below buttons to interactively filter the displayed data.</p>
     <button type="button" value="actor" class="redButton">Actors</button>
     <button type="button" value="austrian" class="greenButton">Austrians</button>
     <button type="button" value="auto" class="yellowButton">Auto*</button>
@@ -23,6 +26,5 @@
         <th>Death Date</th>
       </tr>
     </table>
-
   </body>
 </html>
